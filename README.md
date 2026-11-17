@@ -42,7 +42,7 @@
 
     genres {
         bigint id PK
-        string name
+        string name "UK (Unique)"
         datetime created_at
         datetime updated_at
     }
